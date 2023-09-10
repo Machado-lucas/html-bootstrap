@@ -29,6 +29,10 @@ body {
 	width: 11.5rem;
 }
 
+p {
+	margin-bottom: 0;
+}
+
 .container-assinar p {
 	font-size: 12px;
 	padding-top: 50px;
@@ -66,6 +70,10 @@ body {
 	margin: 44px 38px;
 }
 
+.container > p {
+	margin-bottom: 20px;
+}
+
 .container__conteudo {
 	padding: 38px;
 	display: flex;
@@ -82,7 +90,6 @@ h1 {
 .container__conteudo > p {
 	font-size: 12px;
 	font-weight: 400;
-	margin: 10px 0;
 }
 
 .container__conteudo--funcionalidades {
@@ -95,10 +102,11 @@ h1 {
 h2 {
 	font-size: 14px;
 	font-weight: 500;
+	color: var(--cor-de-fundo);
 }
 
 p {
-	font-size: 11px;
+	font-size: 12px;
 	font-weight: 400;
 	color: #777;
 }
